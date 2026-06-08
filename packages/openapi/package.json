@@ -1,0 +1,17 @@
+{
+  "name": "@tasker/openapi",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "@ts-rest/core": "^3.52.1",
+    "@tasker/zod": "workspace:*",
+    "zod": "^3.24.2"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "go-production",
+  "name": "go-tasker",
   "private": true,
   "workspaces": [
     "apps/*",
@@ -12,7 +12,7 @@
     "typecheck": "turbo run typecheck",
     "clean": "turbo run clean && rm -rf node_modules"
   },
-  "packageManager": "npm@10.0.0",
+  "packageManager": "pnpm@10.13.1",
   "devDependencies": {
     "turbo": "^2.9.14",
     "typescript": "^6.0.3"
